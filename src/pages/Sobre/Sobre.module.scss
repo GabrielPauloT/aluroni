@@ -29,7 +29,7 @@
         width: 100%;
       }
       @media (max-width: $desktop_md) {
-        width: 60%;
+        width: 450px;
       }
       width: 400px;
       img {
@@ -37,8 +37,4 @@
         width: 100%;
       }
     }
-  }
-  .imagemCasa{
-    margin: auto;
-    display: block;
   }

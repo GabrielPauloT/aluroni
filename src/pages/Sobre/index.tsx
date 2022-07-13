@@ -10,11 +10,8 @@ export default function Sobre() {
   return (
     <section>
       <h3 className={stylesTema.titulo}> Sobre </h3>
-      <div className={styles.imagens__imagem}>
-        <img src={casa} alt="Casa Aluroni"/>
-      </div>
       <div className={styles.sobreNos}>
-        
+        <img src={casa} alt="Casa Aluroni" className={styles.imagens__imagem}/>
         <div className={styles.sobreNos__texto}>
           <p>
             Nós do Aluroni oferecemos a vocês, nossos queridos clientes, a Massa Italiana Caseira mais saborosa e sofisticada de Minas Gerais! Prezamos pelos ingredientes tradicionais da culinária Italiana, frescos e de excelente qualidade para que sua experiência seja ainda mais intensa!
